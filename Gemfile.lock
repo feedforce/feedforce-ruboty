@@ -1,3 +1,13 @@
+GIT
+  remote: git://github.com/masutaka/ruboty-kintai.git
+  revision: 3192eb01d86a7851e35b0b23f340d6adce35b8de
+  branch: fix-csv
+  specs:
+    ruboty-kintai (1.0.1)
+      activesupport
+      ruboty
+      tokiyomi
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -7,18 +17,31 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
+    artii (2.1.0)
     chrono (0.0.4)
       activesupport
+    docomoru (0.1.0)
+      activesupport
+      faraday
+      faraday_middleware
+      json
+      rack
+      slop
     dotenv (1.0.2)
+    era_ja (0.2.2)
     faraday (0.9.0)
       multipart-post (>= 1.2, < 3)
     faraday_middleware (0.9.1)
       faraday (>= 0.7.4, < 0.10)
+    hashie (3.3.2)
     i18n (0.6.11)
     json (1.8.1)
     mem (0.1.5)
     minitest (5.4.3)
+    multi_xml (0.5.5)
     multipart-post (2.0.0)
+    nokogiri (1.5.11)
+    rack (1.5.2)
     rake (10.4.2)
     redis (3.1.0)
     redis-namespace (1.5.1)
@@ -29,6 +52,9 @@ GEM
       dotenv
       mem
       slop
+    ruboty-aa (0.0.1)
+      artii (>= 2.0)
+      ruboty
     ruboty-alias (0.0.6)
       ruboty (>= 1.1.1)
     ruboty-cron (0.0.9)
@@ -39,6 +65,9 @@ GEM
       faraday
       faraday_middleware
       ruboty
+    ruboty-japan_weather (0.0.3)
+      ruboty
+      weather_jp (~> 1.0)
     ruboty-redis (0.0.5)
       redis
       redis-namespace
@@ -46,10 +75,31 @@ GEM
     ruboty-slack (0.1.7)
       ruboty (>= 1.0.4)
       xrc (>= 0.0.6)
+    ruboty-syoboi_calendar (0.0.7)
+      activesupport
+      ruboty
+      syoboi_calendar (= 0.3.1)
+    ruboty-talk (0.0.3)
+      docomoru (>= 0.0.3)
+      ruboty (>= 1.1.0)
+    ruboty-wareki (1.0.0)
+      era_ja
+      ruboty
     slop (3.6.0)
+    syoboi_calendar (0.3.1)
+      activesupport
+      faraday
+      faraday_middleware
+      hashie
+      multi_xml
     thread_safe (0.3.4)
+    tokiyomi (0.1.0)
+      activesupport
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
+    weather_jp (1.0.4)
+      nokogiri (~> 1.5.5)
+      rake (>= 0.9.2)
     xrc (0.1.4)
       activesupport
 
@@ -58,8 +108,14 @@ PLATFORMS
 
 DEPENDENCIES
   rake
+  ruboty-aa
   ruboty-alias
   ruboty-cron
   ruboty-google_image
+  ruboty-japan_weather
+  ruboty-kintai!
   ruboty-redis
   ruboty-slack
+  ruboty-syoboi_calendar
+  ruboty-talk
+  ruboty-wareki
