@@ -1,22 +1,14 @@
-# ruboty-template
-A template to create and deploy your [ruboty](https://github.com/r7kamura/ruboty) on slack.
+feedforce ruboty
+================
 
-* Your team owner need to enable [XMPP Gateway](https://my.slack.com/admin/settings).
-* It's recommended to create a new slack account for your ruboty.
+Introduction
+------------
 
-## 1. Deploy
-Press "Deploy to Heroku" button and fill in a form to deploy Ruboty to heroku.
+Forked from https://github.com/r7kamura/ruboty-template
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+See http://qiita.com/r7kamura/items/8d1b98e28154de6030b9
 
-![](images/deploy.gif)
+Deployment
+----------
 
-## 2. Add dyno
-Because Heroku doesn't create dyno by default,
-you need to add 1 dyno from [dashboard](https://dashboard-next.heroku.com/apps).
-
-![](images/add-dyno.gif)
-
-## 3. Fork
-Fork this repository if you want to add other plug-ins. :fork_and_knife:  
-See https://github.com/r7kamura/ruboty for more details about ruboty and its plug-ins.
+Every push to master will deploy to Heroku.
