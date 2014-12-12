@@ -1,13 +1,3 @@
-GIT
-  remote: git://github.com/masutaka/ruboty-kintai.git
-  revision: 3192eb01d86a7851e35b0b23f340d6adce35b8de
-  branch: fix-csv
-  specs:
-    ruboty-kintai (1.0.1)
-      activesupport
-      ruboty
-      tokiyomi
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -68,6 +58,10 @@ GEM
     ruboty-japan_weather (0.0.3)
       ruboty
       weather_jp (~> 1.0)
+    ruboty-kintai (1.0.2)
+      activesupport
+      ruboty
+      tokiyomi
     ruboty-redis (0.0.5)
       redis
       redis-namespace
@@ -113,7 +107,7 @@ DEPENDENCIES
   ruboty-cron
   ruboty-google_image
   ruboty-japan_weather
-  ruboty-kintai!
+  ruboty-kintai
   ruboty-redis
   ruboty-slack
   ruboty-syoboi_calendar
