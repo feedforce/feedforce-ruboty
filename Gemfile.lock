@@ -69,6 +69,8 @@ GEM
       activesupport
       ruboty
       tokiyomi
+    ruboty-mpush (0.0.0)
+      ruboty
     ruboty-redis (0.0.5)
       redis
       redis-namespace
@@ -119,6 +121,7 @@ DEPENDENCIES
   ruboty-google_image
   ruboty-japan_weather
   ruboty-kintai
+  ruboty-mpush
   ruboty-redis
   ruboty-slack
   ruboty-syoboi_calendar
