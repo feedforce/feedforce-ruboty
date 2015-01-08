@@ -75,6 +75,8 @@ GEM
       redis
       redis-namespace
       ruboty
+    ruboty-reminder (0.1.0)
+      ruboty
     ruboty-slack (0.1.7)
       ruboty (>= 1.0.4)
       xrc (>= 0.0.6)
@@ -123,6 +125,7 @@ DEPENDENCIES
   ruboty-kintai
   ruboty-mpush
   ruboty-redis
+  ruboty-reminder
   ruboty-slack
   ruboty-syoboi_calendar
   ruboty-talk
