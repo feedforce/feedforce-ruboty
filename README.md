@@ -12,3 +12,8 @@ Deployment
 ----------
 
 Every push to master will deploy to Heroku.
+
+bundle update
+-------------
+
+Automatically update by http://tachikoma.io/
