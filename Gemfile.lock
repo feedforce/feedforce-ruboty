@@ -41,12 +41,12 @@ GEM
     redis (3.2.1)
     redis-namespace (1.5.1)
       redis (~> 3.0, >= 3.0.4)
-    ruboty (1.1.8)
+    ruboty (1.1.9)
       activesupport
       bundler
       dotenv
       mem
-      slop (>= 4.0.0)
+      slop
     ruboty-aa (0.0.1)
       artii (>= 2.0)
       ruboty
