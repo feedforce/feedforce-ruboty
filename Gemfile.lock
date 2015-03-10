@@ -18,7 +18,7 @@ GEM
       json
       rack
       slop
-    dotenv (1.0.2)
+    dotenv (2.0.0)
     era_ja (0.3.0)
     faraday (0.9.1)
       multipart-post (>= 1.2, < 3)
@@ -41,7 +41,7 @@ GEM
     redis (3.2.1)
     redis-namespace (1.5.1)
       redis (~> 3.0, >= 3.0.4)
-    ruboty (1.1.9)
+    ruboty (1.2.0)
       activesupport
       bundler
       dotenv
@@ -52,7 +52,7 @@ GEM
       ruboty
     ruboty-alias (0.0.6)
       ruboty (>= 1.1.1)
-    ruboty-cron (0.0.9)
+    ruboty-cron (1.0.0)
       activesupport
       chrono
       ruboty (>= 0.2.0)
@@ -86,7 +86,7 @@ GEM
       activesupport
       ruboty
       syoboi_calendar (= 0.3.1)
-    ruboty-talk (0.0.4)
+    ruboty-talk (0.0.5)
       docomoru (>= 0.0.3)
       ruboty (>= 1.1.0)
     ruboty-wareki (1.0.0)
