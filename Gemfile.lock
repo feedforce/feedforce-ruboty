@@ -41,7 +41,7 @@ GEM
     redis (3.2.1)
     redis-namespace (1.5.1)
       redis (~> 3.0, >= 3.0.4)
-    ruboty (1.2.0)
+    ruboty (1.2.1)
       activesupport
       bundler
       dotenv
@@ -102,7 +102,7 @@ GEM
       faraday_middleware
       hashie
       multi_xml
-    thread_safe (0.3.4)
+    thread_safe (0.3.5)
     tokiyomi (0.1.1)
       activesupport
     tzinfo (1.2.2)
