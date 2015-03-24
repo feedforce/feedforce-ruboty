@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (4.2.0)
+    activesupport (4.2.1)
       i18n (~> 0.7)
       json (~> 1.7, >= 1.7.7)
       minitest (~> 5.1)
@@ -11,7 +11,7 @@ GEM
     artii (2.1.1)
     chrono (0.0.4)
       activesupport
-    docomoru (0.1.1)
+    docomoru (0.1.2)
       activesupport
       faraday
       faraday_middleware
@@ -50,7 +50,7 @@ GEM
     ruboty-aa (0.0.1)
       artii (>= 2.0)
       ruboty
-    ruboty-alias (0.0.6)
+    ruboty-alias (0.0.7)
       ruboty (>= 1.1.1)
     ruboty-cron (0.0.9)
       activesupport
@@ -112,7 +112,7 @@ GEM
       nokogiri
       rack
       rake (>= 0.9.2)
-    xrc (0.1.4)
+    xrc (0.1.5)
       activesupport
 
 PLATFORMS
