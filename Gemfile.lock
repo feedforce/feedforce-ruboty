@@ -95,7 +95,7 @@ GEM
     sawyer (0.6.0)
       addressable (~> 2.3.5)
       faraday (~> 0.8, < 0.10)
-    slop (4.0.0)
+    slop (4.1.0)
     syoboi_calendar (0.3.1)
       activesupport
       faraday
