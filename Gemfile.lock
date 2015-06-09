@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/feedforce/ruboty-sebastian.git
+  revision: 6138dc5bb7982918787d1c6c0a3c6be2b8126c7d
+  specs:
+    ruboty-sebastian (0.1.0)
+      ruboty
+      settingslogic
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -97,6 +105,7 @@ GEM
     sawyer (0.6.0)
       addressable (~> 2.3.5)
       faraday (~> 0.8, < 0.10)
+    settingslogic (2.0.9)
     slop (4.1.0)
     syoboi_calendar (0.3.1)
       activesupport
@@ -133,6 +142,7 @@ DEPENDENCIES
   ruboty-mpush
   ruboty-redis
   ruboty-reminder
+  ruboty-sebastian!
   ruboty-slack
   ruboty-syoboi_calendar
   ruboty-talk
