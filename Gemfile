@@ -17,4 +17,4 @@ gem 'ruboty-slack'
 gem 'ruboty-syoboi_calendar'
 gem 'ruboty-talk'
 gem 'ruboty-wareki'
-gem 'ruboty-sebastian', :git => "git://github.com/feedforce/ruboty-sebastian.git"
+gem 'ruboty-sebastian', github: 'feedforce/ruboty-sebastian'
