@@ -18,3 +18,4 @@ gem 'ruboty-slack'
 gem 'ruboty-syoboi_calendar'
 gem 'ruboty-talk'
 gem 'ruboty-wareki'
+gem "ruboty-kokodeikku"
