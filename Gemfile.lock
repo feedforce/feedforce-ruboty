@@ -32,14 +32,19 @@ GEM
       multipart-post (>= 1.2, < 3)
     faraday_middleware (0.9.1)
       faraday (>= 0.7.4, < 0.10)
+    ffi (1.9.8)
     hashie (3.4.2)
     i18n (0.7.0)
+    ikku (0.1.4)
+      natto
     json (1.8.3)
     mem (0.1.5)
     mini_portile (0.6.2)
     minitest (5.7.0)
     multi_xml (0.5.5)
     multipart-post (2.0.0)
+    natto (1.0.0)
+      ffi (>= 1.9.0)
     nokogiri (1.6.6.2)
       mini_portile (~> 0.6.0)
     octokit (3.8.0)
@@ -81,6 +86,9 @@ GEM
       activesupport
       ruboty
       tokiyomi
+    ruboty-kokodeikku (0.0.8)
+      ikku (>= 0.1.1)
+      ruboty
     ruboty-mpush (0.0.0)
       ruboty
     ruboty-redis (0.0.5)
@@ -139,6 +147,7 @@ DEPENDENCIES
   ruboty-google_image
   ruboty-japan_weather
   ruboty-kintai
+  ruboty-kokodeikku
   ruboty-mpush
   ruboty-redis
   ruboty-reminder
