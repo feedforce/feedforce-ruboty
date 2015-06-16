@@ -1,8 +1,10 @@
 GIT
   remote: git://github.com/feedforce/ruboty-sebastian.git
-  revision: 6138dc5bb7982918787d1c6c0a3c6be2b8126c7d
+  revision: dbd28dae5088c5a811cdffa47a771011b23b9dfb
   specs:
     ruboty-sebastian (0.1.0)
+      holiday_jp
+      nokogiri
       ruboty
       settingslogic
 
@@ -34,6 +36,7 @@ GEM
       faraday (>= 0.7.4, < 0.10)
     ffi (1.9.8)
     hashie (3.4.2)
+    holiday_jp (0.4.3)
     i18n (0.7.0)
     ikku (0.1.4)
       natto
