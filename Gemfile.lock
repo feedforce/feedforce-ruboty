@@ -1,8 +1,10 @@
 GIT
   remote: git://github.com/feedforce/ruboty-sebastian.git
-  revision: 6138dc5bb7982918787d1c6c0a3c6be2b8126c7d
+  revision: ce0e1e1e4d54b5970907a728633c17c1bf723337
   specs:
-    ruboty-sebastian (0.1.0)
+    ruboty-sebastian (0.7.0)
+      holiday_jp
+      nokogiri
       ruboty
       settingslogic
 
