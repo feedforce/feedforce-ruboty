@@ -1,15 +1,17 @@
 GIT
   remote: git://github.com/feedforce/ruboty-sebastian.git
-  revision: 6138dc5bb7982918787d1c6c0a3c6be2b8126c7d
+  revision: ce0e1e1e4d54b5970907a728633c17c1bf723337
   specs:
-    ruboty-sebastian (0.1.0)
+    ruboty-sebastian (0.7.0)
+      holiday_jp
+      nokogiri
       ruboty
       settingslogic
 
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (4.2.1)
+    activesupport (4.2.2)
       i18n (~> 0.7)
       json (~> 1.7, >= 1.7.7)
       minitest (~> 5.1)
@@ -26,7 +28,7 @@ GEM
       json
       rack
       slop
-    dotenv (2.0.1)
+    dotenv (2.0.2)
     era_ja (0.3.0)
     faraday (0.9.1)
       multipart-post (>= 1.2, < 3)
@@ -34,6 +36,7 @@ GEM
       faraday (>= 0.7.4, < 0.10)
     ffi (1.9.8)
     hashie (3.4.2)
+    holiday_jp (0.4.3)
     i18n (0.7.0)
     ikku (0.1.4)
       natto
@@ -49,7 +52,7 @@ GEM
       mini_portile (~> 0.6.0)
     octokit (3.8.0)
       sawyer (~> 0.6.0, >= 0.5.3)
-    rack (1.6.1)
+    rack (1.6.4)
     rake (10.4.2)
     redis (3.2.1)
     redis-namespace (1.5.2)
@@ -97,9 +100,9 @@ GEM
       ruboty
     ruboty-reminder (0.2.2)
       ruboty
-    ruboty-slack (0.1.7)
+    ruboty-slack (0.1.8)
       ruboty (>= 1.0.4)
-      xrc (>= 0.0.6)
+      xrc (>= 0.1.7)
     ruboty-syoboi_calendar (0.0.7)
       activesupport
       ruboty
@@ -114,7 +117,7 @@ GEM
       addressable (~> 2.3.5)
       faraday (~> 0.8, < 0.10)
     settingslogic (2.0.9)
-    slop (4.1.0)
+    slop (4.2.0)
     syoboi_calendar (0.3.1)
       activesupport
       faraday
@@ -131,7 +134,7 @@ GEM
       nokogiri
       rack
       rake (>= 0.9.2)
-    xrc (0.1.5)
+    xrc (0.1.7)
       activesupport
 
 PLATFORMS
