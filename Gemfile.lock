@@ -66,7 +66,7 @@ GEM
       ruboty
     ruboty-alias (0.0.8)
       ruboty (>= 1.1.1)
-    ruboty-cron (0.0.9)
+    ruboty-cron (1.0.1)
       activesupport
       chrono
       ruboty (>= 0.2.0)
@@ -142,7 +142,7 @@ DEPENDENCIES
   rake
   ruboty-aa
   ruboty-alias
-  ruboty-cron (= 0.0.9)
+  ruboty-cron
   ruboty-echo
   ruboty-github
   ruboty-google_image
