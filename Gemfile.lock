@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/feedforce/ruboty-sebastian.git
-  revision: f013139c52757c0e62256c506544bf2e325b73d3
+  revision: 7bb72ac0e41cb3caf306004c5c793aa5fb71565a
   specs:
     ruboty-sebastian (0.7.0)
       nokogiri
@@ -18,7 +18,7 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.3.8)
     artii (2.1.1)
-    chrono (0.0.6)
+    chrono (0.1.0)
       activesupport
     docomoru (0.1.3)
       activesupport
