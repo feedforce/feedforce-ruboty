@@ -16,4 +16,4 @@ Every push to master will deploy to Heroku.
 Automatically `$ bundle update`
 -------------------------------
 
-Automatically update by http://tachikoma.io/
+Automatically update by https://www.deppbot.com which the account is [@masutaka](https://github.com/masutaka).
