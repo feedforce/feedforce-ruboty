@@ -66,6 +66,8 @@ GEM
       ruboty
     ruboty-alias (0.0.8)
       ruboty (>= 1.1.1)
+    ruboty-can_i_borrow (0.1.0)
+      ruboty
     ruboty-cron (1.0.2)
       activesupport
       chrono
@@ -142,6 +144,7 @@ DEPENDENCIES
   rake
   ruboty-aa
   ruboty-alias
+  ruboty-can_i_borrow
   ruboty-cron
   ruboty-echo
   ruboty-github
@@ -159,4 +162,4 @@ DEPENDENCIES
   ruboty-wareki
 
 BUNDLED WITH
-   1.10.5
+   1.10.6
