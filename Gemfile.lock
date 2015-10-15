@@ -68,7 +68,7 @@ GEM
       ruboty (>= 1.1.1)
     ruboty-can_i_borrow (0.1.2)
       ruboty
-    ruboty-cron (1.0.2)
+    ruboty-cron (1.1.0)
       activesupport
       chrono
       ruboty (>= 0.2.0)
