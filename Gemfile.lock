@@ -105,6 +105,8 @@ GEM
       ruboty
     ruboty-reminder (0.2.2)
       ruboty
+    ruboty-ruby (0.0.2)
+      ruboty
     ruboty-slack (0.1.12)
       ruboty (>= 1.0.4)
       xrc (>= 0.1.8)
@@ -161,6 +163,7 @@ DEPENDENCIES
   ruboty-mpush
   ruboty-redis
   ruboty-reminder
+  ruboty-ruby
   ruboty-sebastian!
   ruboty-slack
   ruboty-syoboi_calendar
