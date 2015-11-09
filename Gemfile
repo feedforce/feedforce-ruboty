@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 ruby '2.2.2'
 
 # Please sort
+gem 'my_company-schedule'
 gem 'rake'
 gem 'ruboty-aa'
 gem 'ruboty-alias'
