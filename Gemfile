@@ -21,4 +21,4 @@ gem 'ruboty-syoboi_calendar'
 gem 'ruboty-talk'
 gem 'ruboty-wareki'
 
-gem 'nokogiri', '>= 1.6.7.2'
+gem 'nokogiri', '>= 1.6.8'
