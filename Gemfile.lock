@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/masutaka/ruboty-can_i_borrow.git
+  revision: 0823dd288b82cd013f41b4629eaa9af4688cbfa7
+  branch: force-return
+  specs:
+    ruboty-can_i_borrow (0.2.0)
+      ruboty
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -59,8 +67,6 @@ GEM
       ruboty
     ruboty-alias (0.0.8)
       ruboty (>= 1.1.1)
-    ruboty-can_i_borrow (0.2.0)
-      ruboty
     ruboty-cron (1.1.0)
       activesupport
       chrono
@@ -137,7 +143,7 @@ DEPENDENCIES
   rake
   ruboty-aa
   ruboty-alias
-  ruboty-can_i_borrow
+  ruboty-can_i_borrow!
   ruboty-cron
   ruboty-echo
   ruboty-github
@@ -153,5 +159,8 @@ DEPENDENCIES
   ruboty-talk
   ruboty-wareki
 
+RUBY VERSION
+   ruby 2.3.0p0
+
 BUNDLED WITH
-   1.10.6
+   1.12.5
