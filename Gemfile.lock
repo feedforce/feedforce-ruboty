@@ -19,15 +19,15 @@ GEM
       json
       rack
       slop
-    dotenv (2.1.2)
+    dotenv (2.2.0)
     era_ja (0.5.1)
     faraday (0.11.0)
       multipart-post (>= 1.2, < 3)
     faraday_middleware (0.11.0.1)
       faraday (>= 0.7.4, < 1.0)
     ffi (1.9.17)
-    hashie (3.4.6)
-    i18n (0.7.0)
+    hashie (3.5.1)
+    i18n (0.8.0)
     ikku (0.1.4)
       natto
     json (2.0.3)
