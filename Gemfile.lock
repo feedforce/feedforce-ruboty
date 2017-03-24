@@ -38,7 +38,7 @@ GEM
     multipart-post (2.0.0)
     natto (1.1.1)
       ffi (>= 1.9.0)
-    nokogiri (1.7.0.1)
+    nokogiri (1.7.1)
       mini_portile2 (~> 2.1.0)
     octokit (4.6.2)
       sawyer (~> 0.8.0, >= 0.5.3)
@@ -133,7 +133,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  nokogiri (>= 1.6.8)
+  nokogiri (>= 1.7.1)
   rake
   ruboty-aa
   ruboty-alias
@@ -152,6 +152,5 @@ DEPENDENCIES
   ruboty-syoboi_calendar
   ruboty-talk
   ruboty-wareki
-
 BUNDLED WITH
    1.10.6
