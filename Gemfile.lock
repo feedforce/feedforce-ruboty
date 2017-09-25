@@ -32,14 +32,14 @@ GEM
       natto
     json (2.1.0)
     mem (0.1.5)
-    mini_portile2 (2.2.0)
+    mini_portile2 (2.3.0)
     minitest (5.10.3)
     multi_xml (0.6.0)
     multipart-post (2.0.0)
     natto (1.1.1)
       ffi (>= 1.9.0)
-    nokogiri (1.8.0)
-      mini_portile2 (~> 2.2.0)
+    nokogiri (1.8.1)
+      mini_portile2 (~> 2.3.0)
     octokit (4.7.0)
       sawyer (~> 0.8.0, >= 0.5.3)
     public_suffix (3.0.0)
@@ -133,7 +133,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  nokogiri (>= 1.7.1)
+  nokogiri (>= 1.8.1)
   rake
   ruboty-aa
   ruboty-alias
@@ -152,7 +152,5 @@ DEPENDENCIES
   ruboty-syoboi_calendar
   ruboty-talk
   ruboty-wareki
-
-
 BUNDLED WITH
    1.10.6
