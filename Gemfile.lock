@@ -45,7 +45,7 @@ GEM
     public_suffix (3.0.0)
     rack (2.0.3)
     rake (12.1.0)
-    redis (3.3.3)
+    redis (3.3.5)
     redis-namespace (1.5.3)
       redis (~> 3.0, >= 3.0.4)
     ruboty (1.3.0)
@@ -152,5 +152,7 @@ DEPENDENCIES
   ruboty-syoboi_calendar
   ruboty-talk
   ruboty-wareki
+
+
 BUNDLED WITH
    1.10.6
