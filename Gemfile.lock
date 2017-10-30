@@ -27,7 +27,8 @@ GEM
       faraday (>= 0.7.4, < 1.0)
     ffi (1.9.18)
     hashie (3.5.6)
-    i18n (0.8.6)
+    i18n (0.9.0)
+      concurrent-ruby (~> 1.0)
     ikku (0.1.4)
       natto
     json (2.1.0)
@@ -44,7 +45,7 @@ GEM
       sawyer (~> 0.8.0, >= 0.5.3)
     public_suffix (3.0.0)
     rack (2.0.3)
-    rake (12.1.0)
+    rake (12.2.1)
     redis (3.3.5)
     redis-namespace (1.5.3)
       redis (~> 3.0, >= 3.0.4)
@@ -119,7 +120,7 @@ GEM
     thread_safe (0.3.6)
     tokiyomi (0.1.1)
       activesupport
-    tzinfo (1.2.3)
+    tzinfo (1.2.4)
       thread_safe (~> 0.1)
     weather_jp (2.0.0)
       activesupport
