@@ -45,7 +45,7 @@ GEM
       sawyer (~> 0.8.0, >= 0.5.3)
     public_suffix (3.0.1)
     rack (2.0.3)
-    rake (12.2.1)
+    rake (12.3.0)
     redis (4.0.1)
     redis-namespace (1.6.0)
       redis (>= 3.0.4)
@@ -110,7 +110,7 @@ GEM
     sawyer (0.8.1)
       addressable (>= 2.3.5, < 2.6)
       faraday (~> 0.8, < 1.0)
-    slop (4.6.0)
+    slop (4.6.1)
     syoboi_calendar (0.3.1)
       activesupport
       faraday
