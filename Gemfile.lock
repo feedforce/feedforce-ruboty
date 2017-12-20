@@ -68,7 +68,7 @@ GEM
       ruboty (>= 0.2.0)
     ruboty-echo (0.1.0)
       ruboty
-    ruboty-github (0.2.1)
+    ruboty-github (0.3.0)
       activesupport
       octokit
       ruboty
