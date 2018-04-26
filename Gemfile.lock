@@ -1,9 +1,9 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (5.1.5)
+    activesupport (5.2.0)
       concurrent-ruby (~> 1.0, >= 1.0.2)
-      i18n (~> 0.7)
+      i18n (>= 0.7, < 2)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     addressable (2.5.2)
@@ -19,15 +19,15 @@ GEM
       json
       rack
       slop
-    dotenv (2.2.1)
+    dotenv (2.4.0)
     era_ja (0.5.3)
-    faraday (0.14.0)
+    faraday (0.15.0)
       multipart-post (>= 1.2, < 3)
     faraday_middleware (0.12.2)
       faraday (>= 0.7.4, < 1.0)
     ffi (1.9.23)
     hashie (3.5.7)
-    i18n (0.9.5)
+    i18n (1.0.1)
       concurrent-ruby (~> 1.0)
     ikku (0.1.4)
       natto
@@ -44,8 +44,8 @@ GEM
     octokit (4.8.0)
       sawyer (~> 0.8.0, >= 0.5.3)
     public_suffix (3.0.2)
-    rack (2.0.4)
-    rake (12.3.0)
+    rack (2.0.5)
+    rake (12.3.1)
     redis (4.0.1)
     redis-namespace (1.6.0)
       redis (>= 3.0.4)
