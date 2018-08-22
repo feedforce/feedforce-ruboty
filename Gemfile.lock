@@ -12,13 +12,6 @@ GEM
     chrono (0.4.0)
       activesupport
     concurrent-ruby (1.0.5)
-    docomoru (0.1.4)
-      activesupport
-      faraday
-      faraday_middleware
-      json
-      rack
-      slop
     dotenv (2.4.0)
     era_ja (0.5.3)
     event_emitter (0.2.6)
@@ -36,7 +29,6 @@ GEM
       concurrent-ruby (~> 1.0)
     ikku (0.1.4)
       natto
-    json (2.1.0)
     mem (0.1.5)
     mini_portile2 (2.3.0)
     minitest (5.11.3)
@@ -109,9 +101,6 @@ GEM
       activesupport
       ruboty
       syoboi_calendar (= 0.3.1)
-    ruboty-talk (0.0.5)
-      docomoru (>= 0.0.3)
-      ruboty (>= 1.1.0)
     ruboty-wareki (1.0.0)
       era_ja
       ruboty
@@ -169,7 +158,6 @@ DEPENDENCIES
   ruboty-reminder
   ruboty-slack_rtm
   ruboty-syoboi_calendar
-  ruboty-talk
   ruboty-wareki
 
 RUBY VERSION

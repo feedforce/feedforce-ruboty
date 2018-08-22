@@ -18,7 +18,6 @@ gem 'ruboty-redis'
 gem 'ruboty-reminder'
 gem 'ruboty-slack_rtm'
 gem 'ruboty-syoboi_calendar'
-gem 'ruboty-talk'
 gem 'ruboty-wareki'
 
 gem 'nokogiri', '>= 1.8.1'
