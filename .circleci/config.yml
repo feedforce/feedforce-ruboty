@@ -7,13 +7,6 @@ workflows:
   version: 2
 
   nightly:
-    triggers:
-      - schedule:
-          cron: "00 16 * * 0" # 1:00am every Monday (JST)
-          filters:
-            branches:
-              only: master
-
     jobs:
       - ruby-orbs/bundle-update-pr:
           image: "circleci/ruby:2.3.3"
