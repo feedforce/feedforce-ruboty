@@ -16,4 +16,4 @@ Every push to master will deploy to Heroku.
 Automatically `$ bundle update`
 -------------------------------
 
-Automatically update by https://www.deppbot.com which the account is [@masutaka](https://github.com/masutaka).
+Automatically update by [circleci-bundle-update-pr](https://github.com/masutaka/circleci-bundle-update-pr) which the account is [@feedforce-bot](https://github.com/feedforce-bot).
