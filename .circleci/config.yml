@@ -1,0 +1,26 @@
+version: 2.1
+
+orbs:
+  ruby-orbs: sue445/ruby-orbs@1.3.6
+
+workflows:
+  version: 2
+
+  nightly:
+    triggers:
+      - schedule:
+          cron: "00 16 * * 0" # 1:00am every Monday (JST)
+          filters:
+            branches:
+              only: master
+
+    jobs:
+      - ruby-orbs/bundle-update-pr:
+          image: "circleci/ruby:2.3.3"
+          pre-bundle-update-pr:
+            - run:
+                name: "Set timezone to Asia/Tokyo"
+                command: "sudo cp /usr/share/zoneinfo/Asia/Tokyo /etc/localtime"
+          git_user_name: "feedforce tech team"
+          git_user_email: "technical_staff@feedforce.jp"
+          github_access_token: "$GITHUB_ACCESS_TOKEN"
