@@ -92,7 +92,7 @@ GEM
       ruboty
     ruboty-reminder (0.2.2)
       ruboty
-    ruboty-slack_rtm (3.1.0)
+    ruboty-slack_rtm (3.1.1)
       faraday (~> 0.11)
       ruboty (>= 1.1.4)
       slack-api (~> 1.6)
