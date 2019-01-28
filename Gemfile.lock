@@ -25,7 +25,7 @@ GEM
       websocket-driver (>= 0.5.1)
     ffi (1.10.0)
     hashie (3.6.0)
-    i18n (1.5.2)
+    i18n (1.5.3)
       concurrent-ruby (~> 1.0)
     ikku (0.1.4)
       natto
