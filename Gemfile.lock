@@ -13,7 +13,7 @@ GEM
       activesupport
     concurrent-ruby (1.1.5)
     dotenv (2.7.2)
-    era_ja (0.5.3)
+    era_ja (1.0.0)
     event_emitter (0.2.6)
     eventmachine (1.2.7)
     faraday (0.15.4)
@@ -42,7 +42,7 @@ GEM
     octokit (4.14.0)
       sawyer (~> 0.8.0, >= 0.5.3)
     public_suffix (3.0.3)
-    rack (2.0.6)
+    rack (2.0.7)
     rake (12.3.2)
     redis (4.1.0)
     redis-namespace (1.6.0)
