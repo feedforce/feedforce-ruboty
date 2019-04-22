@@ -13,7 +13,7 @@ GEM
       activesupport
     concurrent-ruby (1.1.5)
     dotenv (2.7.2)
-    era_ja (1.0.0)
+    era_ja (1.1.0)
     event_emitter (0.2.6)
     eventmachine (1.2.7)
     faraday (0.15.4)
