@@ -12,7 +12,7 @@ GEM
     chrono (0.4.0)
       activesupport
     concurrent-ruby (1.1.5)
-    dotenv (2.7.2)
+    dotenv (2.7.3)
     era_ja (1.1.0)
     event_emitter (0.2.6)
     eventmachine (1.2.7)
