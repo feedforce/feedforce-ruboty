@@ -8,7 +8,6 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.6.0)
       public_suffix (>= 2.0.2, < 4.0)
-    artii (2.1.2)
     chrono (0.4.0)
       activesupport
     concurrent-ruby (1.1.5)
@@ -23,26 +22,18 @@ GEM
     faye-websocket (0.10.9)
       eventmachine (>= 0.12.0)
       websocket-driver (>= 0.5.1)
-    ffi (1.11.1)
-    hashie (3.6.0)
     i18n (1.6.0)
       concurrent-ruby (~> 1.0)
-    ikku (0.1.4)
-      natto
     mem (0.1.5)
     mini_portile2 (2.4.0)
     minitest (5.11.3)
     multi_json (1.13.1)
-    multi_xml (0.6.0)
     multipart-post (2.1.1)
-    natto (1.1.2)
-      ffi (>= 1.9.0)
     nokogiri (1.10.3)
       mini_portile2 (~> 2.4.0)
     octokit (4.14.0)
       sawyer (~> 0.8.0, >= 0.5.3)
     public_suffix (3.1.1)
-    rack (2.0.7)
     rake (12.3.2)
     redis (4.1.2)
     redis-namespace (1.6.0)
@@ -53,13 +44,8 @@ GEM
       dotenv
       mem
       slop
-    ruboty-aa (0.0.1)
-      artii (>= 2.0)
-      ruboty
     ruboty-alias (0.0.8)
       ruboty (>= 1.1.1)
-    ruboty-can_i_borrow (0.2.0)
-      ruboty
     ruboty-cron (1.1.0)
       activesupport
       chrono
@@ -74,33 +60,15 @@ GEM
       faraday
       faraday_middleware
       ruboty
-    ruboty-japan_weather (0.0.4)
-      ruboty
-      weather_jp
-    ruboty-kintai (1.0.2)
-      activesupport
-      ruboty
-      tokiyomi
-    ruboty-kokodeikku (0.0.8)
-      ikku (>= 0.1.1)
-      ruboty
-    ruboty-mpush (0.0.0)
-      ruboty
     ruboty-redis (0.0.6)
       redis
       redis-namespace
-      ruboty
-    ruboty-reminder (0.2.2)
       ruboty
     ruboty-slack_rtm (3.1.1)
       faraday (~> 0.11)
       ruboty (>= 1.1.4)
       slack-api (~> 1.6)
       websocket-client-simple (~> 0.3.0)
-    ruboty-syoboi_calendar (0.0.7)
-      activesupport
-      ruboty
-      syoboi_calendar (= 0.3.1)
     ruboty-wareki (1.0.0)
       era_ja
       ruboty
@@ -113,22 +81,9 @@ GEM
       faye-websocket (~> 0.10.6)
       multi_json (~> 1.0, >= 1.0.3)
     slop (4.7.0)
-    syoboi_calendar (0.3.1)
-      activesupport
-      faraday
-      faraday_middleware
-      hashie
-      multi_xml
     thread_safe (0.3.6)
-    tokiyomi (0.1.1)
-      activesupport
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
-    weather_jp (2.0.0)
-      activesupport
-      nokogiri
-      rack
-      rake (>= 0.9.2)
     websocket (1.2.8)
     websocket-client-simple (0.3.0)
       event_emitter
@@ -143,21 +98,13 @@ PLATFORMS
 DEPENDENCIES
   nokogiri (>= 1.8.1)
   rake
-  ruboty-aa
   ruboty-alias
-  ruboty-can_i_borrow
   ruboty-cron
   ruboty-echo
   ruboty-github
   ruboty-google_image
-  ruboty-japan_weather
-  ruboty-kintai
-  ruboty-kokodeikku
-  ruboty-mpush
   ruboty-redis
-  ruboty-reminder
   ruboty-slack_rtm
-  ruboty-syoboi_calendar
   ruboty-wareki
 
 RUBY VERSION
