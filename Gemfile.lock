@@ -12,7 +12,6 @@ GEM
       activesupport
     concurrent-ruby (1.1.5)
     dotenv (2.7.4)
-    era_ja (1.1.0)
     event_emitter (0.2.6)
     eventmachine (1.2.7)
     faraday (0.15.4)
@@ -56,10 +55,6 @@ GEM
       activesupport
       octokit
       ruboty
-    ruboty-google_image (0.1.1)
-      faraday
-      faraday_middleware
-      ruboty
     ruboty-redis (0.0.6)
       redis
       redis-namespace
@@ -69,9 +64,6 @@ GEM
       ruboty (>= 1.1.4)
       slack-api (~> 1.6)
       websocket-client-simple (~> 0.3.0)
-    ruboty-wareki (1.0.0)
-      era_ja
-      ruboty
     sawyer (0.8.2)
       addressable (>= 2.3.5)
       faraday (> 0.8, < 2.0)
@@ -102,10 +94,8 @@ DEPENDENCIES
   ruboty-cron
   ruboty-echo
   ruboty-github
-  ruboty-google_image
   ruboty-redis
   ruboty-slack_rtm
-  ruboty-wareki
 
 RUBY VERSION
    ruby 2.3.3p222
