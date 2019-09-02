@@ -7,8 +7,8 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
       zeitwerk (~> 2.1, >= 2.1.8)
-    addressable (2.6.0)
-      public_suffix (>= 2.0.2, < 4.0)
+    addressable (2.7.0)
+      public_suffix (>= 2.0.2, < 5.0)
     chrono (0.4.0)
       activesupport
     concurrent-ruby (1.1.5)
@@ -33,7 +33,7 @@ GEM
       mini_portile2 (~> 2.4.0)
     octokit (4.14.0)
       sawyer (~> 0.8.0, >= 0.5.3)
-    public_suffix (3.1.1)
+    public_suffix (4.0.1)
     rake (12.3.3)
     redis (4.1.2)
     redis-namespace (1.6.0)
@@ -60,7 +60,7 @@ GEM
       redis
       redis-namespace
       ruboty
-    ruboty-slack_rtm (3.1.1)
+    ruboty-slack_rtm (3.2.0)
       faraday (~> 0.11)
       ruboty (>= 1.1.4)
       slack-api (~> 1.6)
