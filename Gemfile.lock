@@ -1,3 +1,13 @@
+GIT
+  remote: https://github.com/feedforce/ruboty-github.git
+  revision: db1a2087488b4e003ed701c1a05aa0c0fff659e8
+  branch: add-default-access-token
+  specs:
+    ruboty-github (0.3.0)
+      activesupport
+      octokit
+      ruboty
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -52,10 +62,6 @@ GEM
       ruboty (>= 0.2.0)
     ruboty-echo (0.1.1)
       ruboty
-    ruboty-github (0.3.0)
-      activesupport
-      octokit
-      ruboty
     ruboty-redis (0.0.6)
       redis
       redis-namespace
@@ -95,7 +101,7 @@ DEPENDENCIES
   ruboty-alias
   ruboty-cron
   ruboty-echo
-  ruboty-github
+  ruboty-github!
   ruboty-redis
   ruboty-slack_rtm
 
@@ -103,4 +109,4 @@ RUBY VERSION
    ruby 2.6.3p62
 
 BUNDLED WITH
-   1.17.2
+   1.17.3
