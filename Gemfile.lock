@@ -1,13 +1,3 @@
-GIT
-  remote: https://github.com/feedforce/ruboty-github.git
-  revision: db1a2087488b4e003ed701c1a05aa0c0fff659e8
-  branch: add-default-access-token
-  specs:
-    ruboty-github (0.3.0)
-      activesupport
-      octokit
-      ruboty
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -17,8 +7,6 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
       zeitwerk (~> 2.2, >= 2.2.2)
-    addressable (2.7.0)
-      public_suffix (>= 2.0.2, < 5.0)
     chrono (0.4.0)
       activesupport
     concurrent-ruby (1.1.6)
@@ -41,9 +29,6 @@ GEM
     multipart-post (2.1.1)
     nokogiri (1.10.8)
       mini_portile2 (~> 2.4.0)
-    octokit (4.14.0)
-      sawyer (~> 0.8.0, >= 0.5.3)
-    public_suffix (4.0.1)
     rake (13.0.1)
     redis (4.1.3)
     redis-namespace (1.7.0)
@@ -54,8 +39,6 @@ GEM
       dotenv
       mem
       slop
-    ruboty-alias (0.0.8)
-      ruboty (>= 1.1.1)
     ruboty-cron (1.1.0)
       activesupport
       chrono
@@ -71,9 +54,6 @@ GEM
       ruboty (>= 1.1.4)
       slack-api (~> 1.6)
       websocket-client-simple (~> 0.3.0)
-    sawyer (0.8.2)
-      addressable (>= 2.3.5)
-      faraday (> 0.8, < 2.0)
     slack-api (1.6.1)
       faraday (~> 0.11)
       faraday_middleware (~> 0.10.0)
@@ -98,10 +78,8 @@ PLATFORMS
 DEPENDENCIES
   nokogiri (>= 1.8.1)
   rake
-  ruboty-alias
   ruboty-cron
   ruboty-echo
-  ruboty-github!
   ruboty-redis
   ruboty-slack_rtm
 
